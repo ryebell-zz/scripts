@@ -1,0 +1,15 @@
+<?php
+// custom configs
+return [
+    // for Forecast
+    // key = DarkSky API key
+    // coordinates = lat/long to check forecast for.
+    'weather' => [
+        'key' => '',
+        'coordinates' => ''
+    ],
+    // for Cryptocheck
+    // coins = array of cryptocurreny tickers to check price on.
+    'coins' => ['']
+];
+?>
